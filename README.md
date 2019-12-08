@@ -17,7 +17,7 @@ Cloud Fitness attempts to make this easier for Australians by enabling them to r
 ### Functionality
 - Register for a gym account with your full name, Date of birth, email, phone number, Billing information and Physical profile(Height, weight, gender, level of fitness etc)
 - Once logged in, you can book and delete a gym session
-    - Once you have selected a gym session, you can select a chosen workout routine. Each gym member chooses:
+- Once you have selected a gym session, you can select a chosen workout routine. Each gym member chooses:
     - GOALS: flex & relax, aerobic, strength
     - LEVELS: developed, intermediate, advanced.
     - PEOPLE: single, couple, families, groups(maximum 8 people)
