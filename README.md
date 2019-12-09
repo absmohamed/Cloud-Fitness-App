@@ -50,5 +50,11 @@ According to the econ gym, 50% of their customers were aged between 24-35. These
 
 20% of their customers were above 35 years old. This was their smallest market segmentation because people 35+ have a job and a family and as people get older, they tend to lose their motivation to attend gym regularly. Through the development of our gym web app, we hope to improve this statistic.
 
+# R2  Documents
+
+# R3 Documents
+
+
+
 
 
