@@ -50,9 +50,47 @@ According to the econ gym, 50% of their customers were aged between 24-35. These
 
 20% of their customers were above 35 years old. This was their smallest market segmentation because people 35+ have a job and a family and as people get older, they tend to lose their motivation to attend gym regularly. Through the development of our gym web app, we hope to improve this statistic.
 
-# R2  Documents
+### Planning Methodology
+Through meetings we have decided on the use of Trello to plan and manage our Product.  We have agreed to use Github for code management and heroku for deployment.  We are using Slack for commmunication and sharing of diagrams.  We have agreed to being on site Monday to Wednesday and offsite at our times.
 
-# R3 Documents
+When creating our Trello board we all worked together to create the cards. Each card show the level of work or difficulty. As card is clearly marked with the team member or members who worked on it.  Each team member should move the cards on the trello board to reflect where they are at with that piece of work.
+
+We have made cards in Trello the help us to divide on the work.  At the moment what areas we work on our determined by the team.  We agree to working on feature branches and 1 or 2 members to do code reviews and the person who creates the branch merge the branch into master. Should conflicts arise the parties with conflicting code should work together or be in agreement what code to accept and merge.
+
+## R2  Documents
+### User Registration, Login, and Logout
+![Desktop](Documents/R2-Register-Login-Logout.png)
+
+### Service - End to End
+![Desktop](Documents/R2-Service-End-to-End.png)
+
+### Payments - Part of End to End Process
+![Desktop](Documents/R2-Payments.png)
+
+### Edit, Cancel Booking Details and Unsubscribe User
+![Desktop](Documents/R2-Edit-Cancel-Booking-Unsubscribe.png)
+
+## R3 App Architecture Diagram
+![Desktop](Documents/R3-App-Architecture-Diagram.png)
+
+## R4 User Stories
+
+
+## R5 Wireframes
+### Desktop
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(1).png)
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(2).png)
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(3).png)
+
+### Mobile
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(1).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(2).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(3).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(4).png)
+
+## ScreenShots
+
+
 
 
 
