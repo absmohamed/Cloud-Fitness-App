@@ -5,7 +5,7 @@
 The purpose of this assessment is to design a web application for a commercial client. For this assessment we are creating a web application for a gym. Our gym app is called Cloud Fitness and it will store the information of the gym members, help them book gym sessions and select their chosen workout routines. 
 
 We created the gym web app for a variety of reasons:
-According to the New Daily,56% of Australians are inactive or don't get enough exercise, increasing their risk of cancer, weight gain and type 2 diabetes. Therefore, going to the gym is a very important part of a person's life as it helps to:
+According to the New Daily, 56% of Australians are inactive or don't get enough exercise, increasing their risk of cancer, weight gain and type 2 diabetes. Therefore, going to the gym is a very important part of a person's life as it helps to:
 - Increase your body's physical activity
 - Relieve stress
 - Improve your sleep
@@ -50,9 +50,66 @@ According to the econ gym, 50% of their customers were aged between 24-35. These
 
 20% of their customers were above 35 years old. This was their smallest market segmentation because people 35+ have a job and a family and as people get older, they tend to lose their motivation to attend gym regularly. Through the development of our gym web app, we hope to improve this statistic.
 
-# R2  Documents
+### Planning Methodology
+Through meetings we have decided on the use of Trello to plan and manage our Product.  We have agreed to use Github for code management and heroku for deployment.  We are using Slack for commmunication and sharing of diagrams.  We have agreed to being on site Monday to Wednesday and offsite at other times. When offsite and working on the project communication is via Slack and through Github reviews.
 
-# R3 Documents
+When creating our Trello board, we all worked together to create the cards. Each card shows the level of work or difficulty. Every card is clearly marked with the team member or members who worked on it.  Each team member should move the cards on the trello board to reflect where they are at with that piece of work.
+
+We have made cards in Trello that help us to divide up the work.  At the moment what areas we work on, are determined by the team.  We agree to working on feature branches and 1 or 2 members to do code reviews and the person who creates the branch, merges the branch into master or via agreement if sort first, if it is needed for practicality reasons and progression of the project. We agree to regular commits when working on code. Should conflicts arise the parties with conflicting code should work together or be in agreement what code to accept and merge.
+
+We agreeed to daily stand ups on Monday to Wednesday and regularly communication on trello when working off site. As a team we make requests for other meetings as deemed necessary.
+
+At our meeting with the client we agreed to emailing and other communications or meetings agreed through email.  We sent through wireframes of our design for the website and asked further input from the client on design.  The Client will sign off on the design and we will notify the client regarding our first and subsequent deployments for heroku during the project so that progress can be seen and feedback given.
+
+## R2  Diagrams
+### User Registration, Login, and Logout
+![Desktop](Documents/R2-Register-Login-Logout.png)
+
+### Service - End to End
+![Desktop](Documents/R2-Service-End-to-End.png)
+
+### Payments - Part of End to End Process
+![Desktop](Documents/R2-Payments.png)
+
+### Edit, Cancel Booking Details and Unsubscribe User
+![Desktop](Documents/R2-Edit-Cancel-Booking-Unsubscribe.png)
+
+## R3 Diagrams
+### App Architecture Diagram
+![Desktop](Documents/R3-App-Architecture-Diagram.png)
+
+## R4 User Stories
+
+
+## R5 Wireframes
+### Desktop
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(1).png)
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(2).png)
+![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(3).png)
+
+### Mobile
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(1).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(2).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(3).png)
+![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(4).png)
+
+## ScreenShots
+
+## Trello Board
+Definitions to Design:
+![Desktop](Documents/Trello-Definition-to-Design(1).png)
+
+Progress to Testing
+![Desktop](Documents/Trello-InProgress-to-Testing(1).png)
+![Desktop](Documents/Trello-InProgress-to-Testing(2).png)
+
+Future Enhancements:
+![Desktop](Documents/Trello-FutureEnhancements(1).png)
+
+## Testing Spreadsheet
+![Desktop](Documents/Testing-Spreadsheet(1).png)
+
+
 
 
 
