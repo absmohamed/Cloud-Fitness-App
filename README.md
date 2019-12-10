@@ -95,18 +95,23 @@ At our meeting with the client we agreed to emailing and other communications or
 
 ## ScreenShots
 
-## Trello Board
+### Trello Board
+
 Definitions to Design:
+
 ![Desktop](Documents/Trello-Definition-to-Design(1).png)
 
 Progress to Testing
+
 ![Desktop](Documents/Trello-InProgress-to-Testing(1).png)
 ![Desktop](Documents/Trello-InProgress-to-Testing(2).png)
 
-Future Enhancements:
+### Future Enhancements:
+
 ![Desktop](Documents/Trello-FutureEnhancements(1).png)
 
-## Testing Spreadsheet
+### Testing Spreadsheet
+
 ![Desktop](Documents/Testing-Spreadsheet(1).png)
 
 
