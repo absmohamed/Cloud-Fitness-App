@@ -53,9 +53,13 @@ According to the econ gym, 50% of their customers were aged between 24-35. These
 ### Planning Methodology
 Through meetings we have decided on the use of Trello to plan and manage our Product.  We have agreed to use Github for code management and heroku for deployment.  We are using Slack for commmunication and sharing of diagrams.  We have agreed to being on site Monday to Wednesday and offsite at our times.
 
-When creating our Trello board we all worked together to create the cards. Each card show the level of work or difficulty. As card is clearly marked with the team member or members who worked on it.  Each team member should move the cards on the trello board to reflect where they are at with that piece of work.
+When creating our Trello board, we all worked together to create the cards. Each card shows the level of work or difficulty. Every card is clearly marked with the team member or members who worked on it.  Each team member should move the cards on the trello board to reflect where they are at with that piece of work.
 
-We have made cards in Trello the help us to divide on the work.  At the moment what areas we work on our determined by the team.  We agree to working on feature branches and 1 or 2 members to do code reviews and the person who creates the branch merge the branch into master. Should conflicts arise the parties with conflicting code should work together or be in agreement what code to accept and merge.
+We have made cards in Trello that help us to divide on the work.  At the moment what areas we work on, are determined by the team.  We agree to working on feature branches and 1 or 2 members to do code reviews and the person who creates the branch, merges the branch into master. We agree to regular commits when working on code. Should conflicts arise the parties with conflicting code should work together or be in agreement what code to accept and merge.
+
+We agreeed to daily stand ups on Monday to Wednesday and regularly communication on trello when working off site. As a team we make request for other meetings as deemed necessary.
+
+At our meeting with the client we agreed to emailing and other communications or meetings agreed through email.  We sent through wireframes of our design for the website and asked further input from the client on design.  The Client will sign off on the design and we will notify the client regarding our first and subsequent deployments for heroku during the project so that can see progress and give feedback.
 
 ## R2  Documents
 ### User Registration, Login, and Logout
@@ -89,6 +93,20 @@ We have made cards in Trello the help us to divide on the work.  At the moment w
 ![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(4).png)
 
 ## ScreenShots
+
+## Trello Board
+Definitions to Design:
+![Desktop](Documents/Trello-Definition-to-Design(1).png)
+
+Progress to Testing
+![Desktop](Documents/Trello-InProgress-to-Testing(1).png)
+![Desktop](Documents/Trello-InProgress-to-Testing(2).png)
+
+Future Enhancements:
+![Desktop](Documents/Trello-FutureEnhancements(1).png)
+
+## Testing Spreadsheet
+![Desktop](Documents/Testing-Spreadsheet(1).png)
 
 
 
