@@ -127,9 +127,9 @@ At our meeting with the client, we agreed that our main forms of communication w
 
 ## R5 Wireframes
 ### Desktop
-![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(1).png)
-![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(2).png)
-![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(3).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wrireframes(1).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wrireframes(2).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wrireframes(3).png)
 
 ### Mobile
 ![Mobile](Docs/Cloud-Fitness-Wireframes-Mobile(1).png)
