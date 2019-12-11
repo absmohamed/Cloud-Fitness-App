@@ -63,20 +63,20 @@ At our meeting with the client we agreed to emailing and other communications or
 
 ## R2  Diagrams
 ### User Registration, Login, and Logout
-![Desktop](Documents/R2-Register-Login-Logout.png)
+![Desktop](Docs/R2-Register-Login-Logout.png)
 
 ### Service - End to End
-![Desktop](Documents/R2-Service-End-to-End.png)
+![Desktop](Docs/R2-Service-End-to-End.png)
 
 ### Payments - Part of End to End Process
-![Desktop](Documents/R2-Payments.png)
+![Desktop](Docs/R2-Payments.png)
 
 ### Edit, Cancel Booking Details and Unsubscribe User
-![Desktop](Documents/R2-Edit-Cancel-Booking-Unsubscribe.png)
+![Desktop](Docs/R2-Edit-Cancel-Booking-Unsubscribe.png)
 
 ## R3 Diagrams
 ### App Architecture Diagram
-![Desktop](Documents/R3-App-Architecture-Diagram.png)
+![Desktop](Docs/R3-App-Architecture-Diagram.png)
 
 ## R4 User Stories
 - Website should be design with the user in mind with clearly layed out designs and flow process through the application, utilising placement and colour to easily draw user to where they want to go. With apporpriate messages of sucess and error so a user knows that the process occured successfully or what went wrong, so a user can correct the issue easily. 
@@ -104,15 +104,15 @@ At our meeting with the client we agreed to emailing and other communications or
 
 ## R5 Wireframes
 ### Desktop
-![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(1).png)
-![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(2).png)
-![Desktop](Documents/Cloud-Fitness-Desktop-Wireframes(3).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(1).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(2).png)
+![Desktop](Docs/Cloud-Fitness-Desktop-Wireframes(3).png)
 
 ### Mobile
-![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(1).png)
-![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(2).png)
-![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(3).png)
-![Desktop](Documents/Cloud-Fitness-Wireframes-Mobile(4).png)
+![Mobile](Docs/Cloud-Fitness-Wireframes-Mobile(1).png)
+![Mobile](Docs/Cloud-Fitness-Wireframes-Mobile(2).png)
+![Mobile](Docs/Cloud-Fitness-Wireframes-Mobile(3).png)
+![Mobile](Docs/Cloud-Fitness-Wireframes-Mobile(4).png)
 
 ## ScreenShots
 
@@ -120,12 +120,12 @@ At our meeting with the client we agreed to emailing and other communications or
 
 Definitions to Design:
 
-![Desktop](Documents/Trello-Definition-to-Design(1).png)
+![Desktop](Docs/Trello-Definition-to-Design(1).png)
 
 Progress to Testing
 
-![Desktop](Documents/Trello-InProgress-to-Testing(1).png)
-![Desktop](Documents/Trello-InProgress-to-Testing(2).png)
+![Desktop](Docs/Trello-InProgress-to-Testing(1).png)
+![Desktop](Docs/Trello-InProgress-to-Testing(2).png)
 
 ### Future Enhancements:
 
