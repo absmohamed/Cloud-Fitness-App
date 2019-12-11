@@ -153,11 +153,11 @@ Progress to Testing
 
 ### Future Enhancements:
 
-![Desktop](Documents/Trello-FutureEnhancements(1).png)
+![Desktop](Docs/Trello-FutureEnhancements(1).png)
 
 ### Testing Spreadsheet
 
-![Desktop](Documents/Testing-Spreadsheet(1).png)
+![Desktop](Docs/Testing-Spreadsheet(1).png)
 
 
 
