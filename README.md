@@ -24,7 +24,6 @@ Cloud Fitness attempts to make this easier for Australians by enabling them to r
 ### Functionality
 Minimum Viable Product(MVP):
 - Register for a gym account with your full name, date of birth, email, phone number, billing information and physical profile(Height, weight, gender, level of fitness etc).
-- 
 - Once logged in, you can read, book and delete your gym session.
 - WHile booking a gym session, user selects a workout routine. Each gym member(user) chooses:
     - GOALS: flex & relax, aerobic, strength
