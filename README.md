@@ -79,7 +79,28 @@ At our meeting with the client we agreed to emailing and other communications or
 ![Desktop](Documents/R3-App-Architecture-Diagram.png)
 
 ## R4 User Stories
+- Website should be design with the user in mind with clearly layed out designs and flow process through the application, utilising placement and colour to easily draw user to where they want to go. With apporpriate messages of sucess and error so a user knows that the process occured successfully or what went wrong, so a user can correct the issue easily. 
+### User Admin
+-  I can register, with username (optional),email and password with password encryption(passport). 
+- I am able to log in / log out with username (optional) or email, and password.  
+- I can set availability, this capability was an instruciton by the Client to set up in the code as 24/7 * 8 slots per time slot, with timeslots of 20, 30, 40, 50 mins.  We have put it to the client potential for 30 and 50 minutes slots to cause overfolow into the next hour.  We also asked if the were any set breaks between between appointments.
+- I can create, edit, a timetable. We are awaiting data from client so this is not yet included in our design wireframes. We will create wireframes for the the timetable once client can provide
+- I can see all bookings that have made, and who has booked in. 
+- I can set prices and change prices
 
+### User Client
+-  I can register, with username (optional),email and password with password encryption(passport). 
+- I am able to log in / log out with username (optional) or email, and password. 
+- I can edit my user profile.  Clearly viewable place on the website indicating to the user to button placement for editing their profile. 
+- I can book a session. A user can book in for class or a workout session for the ability to set the timeframe for the session.
+- I can set a level
+- I can add addition participants to my booking. 
+- I can edit or cancel an appointment.
+- I can view my appointments
+- I can pay for my appointments
+
+### Future interations
+- I can see msg from clients, chat messaging Chat bot.
 
 ## R5 Wireframes
 ### Desktop
