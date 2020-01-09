@@ -1,0 +1,90 @@
+body {
+    background: $main-bgcolor;
+}
+
+#page-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    @include desktop {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    background-color: $header-bgcolor;
+    font-family: $secondary-font-family;
+    font-style: $secondary-font-style;
+    color: $main-color;
+    margin: 0;
+    padding: 5px 20px;
+    width: 100%;
+    h1 {
+        font-size: 2em;
+    }
+}
+
+#footer {
+    align-self: end;
+    padding: 5px 10px;
+    background-color: $main-bgcolor;
+    border-top: 3px solid $header-bgcolor;
+    font-family: $secondary-font-family;
+    font-style: $secondary-font-style;
+    width: 100%;
+}
+
+.topnav {
+    background-color: $navbar-bgcolor;
+    overflow: hidden;
+    margin: 0px;
+    padding: 14px 14px;
+    @include mobile {
+        a:not(:first-child) {display: none;}
+        a.icon {
+            float: right;
+            display: block;
+        }
+        &.responsive {
+            position: relative;
+            a {
+                float: none;
+                display: block;
+                text-align: left;
+                &.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+
+.topnav a:hover {
+    background-color: $nav-hover;
+    color: $navtext-color;
+
+}
+
+.active {
+    background-color: $nav-active;
+    color: $navtext-color;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.responsive img {
+    display: inline-block !important;
+    float: none;
+    padding-right: 10px;
+    height: 40px;
+    width: auto;
+}
+
+#cloud {
+    padding: 0px;
+    padding-right: 5px;
+}
