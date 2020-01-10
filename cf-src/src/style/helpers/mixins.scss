@@ -1,0 +1,57 @@
+@mixin mobile {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: 485px){
+        @content
+    }
+}
+
+@mixin page-container {
+    min-height: 300px;
+    font-family: $main-font-family;
+    font-style: $main-font-family;
+    .banner {
+        display: flex;
+        background: white;
+        width: 100%;
+
+    }
+    
+}
+
+@mixin h2-style {
+    font-family: $main-font-family;
+    font-style: $main-font-style;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+//row mixins for grids
+@mixin row() {
+    font-size: 0;
+    
+}
+//column mixin for grid cells
+@mixin col($col, $sum, $gap: 1em, $align:top, $first: false, $last: false,) {
+    width: percentage($col/$sum);
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: $align;
+    box-sizing: border-box;
+    padding-left: if($first, 0, $gap);
+    padding-right: if($last, 0, $gap);
+
+    @media only screen and (min-width: 768px) {
+        width: percentage($col/sum );
+        vertical-align: $align;
+    }
+}
+
+
+
