@@ -1,0 +1,73 @@
+$main-bgcolor:#ffffff;
+$navbar-bgcolor: #090909;
+$white-text: #ffffff;
+$black-text: #090909;
+$letter-spacing: 0.3em;
+$nav-hlcolor: #F2CB05;
+
+$main-font-family: 'Lato', sans-serif;
+$secondary-font-familly: 'Allura', cursive;
+$letter-spacing: 0.5;
+$secondary-font-style: bold;
+$box-shadow: 5px 5px 5px 5px $black-text;
+$word-spacing: 0.2em;
+
+$sb-base-color:     #090909;      // Base color of your button
+$sb-second-color:     #F2CB05;        // Optional second color of button gradient
+$sb-border-radius:   10px;         // Button border radius
+$sb-border-width:    1px;          // Button border width
+$sb-padding:         0.5em 1.5em;  // Button padding
+$sb-font-size:       20px;         // Button font-size
+$sb-line-height:     1.2em;        // Button line-height
+$sb-text-color:      #ffffff;        // Button text color
+$sb-text-style:      "inset";      // Button text shadow style
+$sb-gradient-style:  "glass";      // Button gradient style
+$sb-auto-states:     true;         // Automatically create pseudo styles 
+
+//Desktop Grid
+$grid-desktop-columns: 12;
+$grid-desktop-sideMargin: 80px;
+$grid-desktop-gutter: 40px;
+$grid-desktop-breakpoint: 1400px;
+
+//Tablet Grid
+$grid-tablet-columns: 12;
+$grid-tablet-sideMargin: 60px;
+$grid-tablet-gutter: 30px;
+$grid-tablet-breakpoint: 1020px;
+
+//Mobile Grid
+$grid-mobile-columns: 4;
+$grid-mobile-sideMargin: 32px;
+$grid-mobile-gutter: 20px;
+$grid-mobile-breakpoint: 620px;
+
+$desk-grid-width: 100% -
+(($grid-desktop-sideMargin * 2 / $grid-desktop-breakpoint) * 100%);
+
+$tablet-grid-width: 100% -
+(($grid-tablet-sideMargin * 2 / $grid-tablet-breakpoint) * 100%);
+
+$mobile-grid-width: 100% -
+(($grid-mobile-sideMargin * 2 / $grid-mobile-breakpoint) * 100%);
+
+$desk-gutter: (
+  (
+      $grid-desktop-gutter / 
+        ($grid-desktop-breakpoint - ($grid-desktop-sideMargin * 2)) 
+  ) * 100%
+);
+
+$tablet-gutter: (
+    (
+        $grid-tablet-gutter /
+          ($grid-tablet-breakpoint - ($grid-tablet-sideMargin * 2))
+    ) * 100%
+);
+
+$mobile-gutter: (
+    (
+        $grid-mobile-gutter /
+          ($grid-mobile-breakpoint - ($grid-mobile-sideMargin * 2))
+    ) * 100%
+);

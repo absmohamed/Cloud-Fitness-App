@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.topnav {
+    background-color: $navbar-bgcolor;
+    overflow: hidden;
+    margin: 0px;
+    padding: 14px 14px;
+    @include mobile {
+        
+    }
+}

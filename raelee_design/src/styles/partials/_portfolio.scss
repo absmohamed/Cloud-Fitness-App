@@ -1,0 +1,52 @@
+.container p {
+    padding: 110px;
+    font-size: 1.6em;
+}
+
+.container {
+    color: $black-text;
+    background-color: $main-bgcolor;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 80px;
+    grid-template-areas: "services-item-design services-item-build services-item-functionality" "services-item-coming-1 services-item-coming-2 services-item-coming-3";
+    
+    .portfolio-item-gym { grid-area: portfolio-item-gym;
+        height: 300px;}
+    
+    .portfolio-item-maintenance { grid-area: portfolio-item-maintenance;
+    height: 300px;}
+    
+    .portfolio-item-artist { grid-area: portfolio-item-artist; 
+    height: 300px;}
+    
+    .portfolio-item-coming-1 { grid-area: portfolio-item-coming-1; 
+        height: 300px;}  
+      
+    .portfolio-item-coming-2 { grid-area: portfolio-item-coming-2; 
+    height: 300px;}
+
+    .portfolio-item-coming-3 { grid-area: portfolio-item-coming-3; 
+    height: 300px;}
+  
+
+}
+
+.portfolio-title {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.75em;
+  
+
+}
+
+.portfolio-title-2 {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.5em;
+}

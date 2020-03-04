@@ -1,0 +1,60 @@
+@mixin beehive {
+    li:nth-child(3n+2) {
+        margin: 0 1%;
+      
+      }
+      li:nth-child(6n+4), li:nth-child(6n+5), li:nth-child(6n+6) {
+        margin-top: -6.9285714285%;
+        margin-bottom: -6.9285714285%;
+        transform: translateX(50%) rotate(-60deg) skewY(30deg);
+      }
+      li:nth-child(6n+4) { 
+        margin-left: 0.5%;
+      }
+}
+
+@mixin mobile {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 485px) {
+    @content;
+    
+  }
+}
+
+@mixin h2-style {
+  font-family: $main-font-family;
+  font-style: $main-font-style;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+
+// @mixin full-width-centered {
+//   display: flex;
+//   justify-content: center;
+//   width: 100%;
+// }
+
+@mixin page-container {
+  
+  min-height: 300px;
+  font-family: $main-font-family;
+  font-style: $main-font-style;
+
+  .banner {
+      display: flex;
+      background: white;
+      width: 100%;
+
+  }
+
+ 
+
+}
+

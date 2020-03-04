@@ -1,0 +1,74 @@
+$main-bgcolor: #ffffff;
+$navbar-bgcolor:#090909;
+$white-text: #ffffff;
+$black-text: #090909;
+$nav-hlcolor: #F2Cb05;
+
+$main-font-family: 'Open Sans Condensed', ;
+$secondary-font-family: 'Allura', ;
+$letter-spacing: 0.5em;
+$secondary-font-style: bold;
+$box-shadow: 5px 5px 5px 5px $black-text;
+$word-spacing: 0.2em;
+
+
+$sb-base-color: #090909;
+$sb-base-color: #F2CB05;
+$sb-border-radius: 10px;
+$sb-border-width: 1px;
+$sb-padding: 0.5em 1.5em;
+$sb-font-size: 20px;
+$sb-line-height: 1.2em;
+$sb-text-color: #ffffff;
+$sb-text-style: "inset";
+$sb-auto-states: true;
+
+//Desktop Grid
+$grid-desktop-columns: 12;
+$grid-desktop-sideMargin: 80px;
+$grid-desktop-gutter: 40px;
+$grid-desktop-breakpoint: 1400px;
+
+//Tablet Grid
+$grid-tablet-columns: 12;
+$grid-tablet-sideMargin: 60px;
+$grid-tablet-gutter: 30px;
+$grid-tablet-breakpoint: 1020px;
+
+//Mobile Grid
+$grid-mobile-columns: 4;
+$grid-mobile-sideMargin: 32px;
+$grid-mobile-gutter: 20px;
+$grid-mobile-breakpoint: 620px;
+
+$desk-grid-width: 100% - 
+(($grid-desktop-sideMargin * 2 / $grid-desktop-breakpoint) * 100%);
+
+$tablet-grid-width: 100% - 
+(($grid-tablet-sideMargin * 2 / $grid-tablet-breakpoint) * 100%);
+
+$mobile-grid-width: 100% - 
+(($grid-mobile-sideMargin * 2 / $grid-mobile-breakpoint) * 100%);
+
+
+$desk-gutter: (
+    (
+        $grid-desktop-gutter /
+        ($grid-desktop-breakpoint - ($grid-desktop-sideMargin * 2))
+
+    ) * 100%
+);
+
+$tablet-gutter: (
+    (
+        $grid-tablet-gutter /
+        ($grid-tablet-breakpoint - ($grid-tablet-sideMargin * 2))
+    ) * 100%
+);
+
+$mobile-gutter: (
+    (
+        $grid-mobile-gutter /
+        ($grid-mobile-breakpoint - ($grid-mobile-sideMargin * 2))
+    ) * 100%
+);

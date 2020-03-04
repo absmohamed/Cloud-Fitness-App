@@ -1,0 +1,58 @@
+.container p {
+    padding: 110px;
+    font-size: 1.6em;
+}
+
+.container {
+    color: $black-text;
+    background-color: $main-bgcolor;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    padding: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 80px;
+    grid-template-areas: "services- bookingsdiv2" "amenities community";
+    
+    .services-item-design { grid-area: service-item-design;
+        height: 300px;}
+    
+    .services-item-build { grid-area: service-item-build;
+    height: 300px;}
+    
+    .service-item-functionality { grid-area: service-item-functionality; 
+    height: 300px;}
+    
+    .service-item-maintenance { grid-area: service-item-maintenance; 
+        height: 300px;}  
+      
+    .service-item-support { grid-area: service-item-support; 
+    height: 300px;}
+
+    .service-item-merchandise { grid-area: service-item-merchandise; 
+    height: 300px;}
+  
+
+}
+
+.services-title {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.75em;
+
+}
+
+.services-title-2 {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.5em;
+}
+
+.services-title-3 {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.25em;
+}

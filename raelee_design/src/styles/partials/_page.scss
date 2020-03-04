@@ -1,0 +1,197 @@
+
+ body
+ {
+   margin: 0;
+   padding: 0;
+
+ 
+ .topnav {
+    background-color: $navbar-bgcolor;
+    overflow: hidden;
+    margin: 0px;
+    padding: 14px 14px;
+    @include mobile {
+        a:not(:first-child) {display: none;}
+        a.icon {
+            float: right;
+            display: block;
+        }
+        &.responsive {
+            position: relative;
+            a {
+                float: none;
+                display: block;
+                text-align: left;
+                &.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: $navtext-color;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 7px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0 , 0 .5);
+    text-decoration: none;
+    font-size: 17px;
+    img {
+        display: none;
+    } 
+    
+}
+
+.topnav a:hover {
+    background-color: $nav-hover;
+    color: $navtext-color;
+}
+
+.active {
+    background-color: $nav-active;
+    color: $nav-active;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+#flower {
+    padding: 0px;
+    padding-right: 5px;
+}
+
+
+
+h2 {
+    font-family: $main-font-family;
+    font-style: bold;
+    letter-spacing: $letter-spacing;
+    word-spacing: $word-spacing;
+    
+}
+
+
+
+.container p {
+    display: flex;
+    padding: 22px;
+    font-size: 1.1em;
+    font-display: $main-font-family $main-font-style;
+    word-spacing: $word-spacing;
+    letter-spacing: $letter-spacing;
+    color: $black-text;
+    justify-content: center;
+    box-shadow: $box-shadow;
+    text-shadow: 1px 1px 4px #828080;
+    
+}
+
+#footer {
+    align-self: end;
+    padding:  5px 10px;
+    background-color: $navbar-bgcolor;
+    color: $main-bgcolor;
+    font-family: $secondary-font-family;
+    width: 100%
+}
+
+
+.btn-email {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    @include sassy-button-default-structure(
+        $sb-base-color, 
+        $sb-second-color,
+        $sb-border-radius,
+        $sb-border-width,
+        $sb-padding,
+        $sb-font-size,
+        $sb-line-height, 
+        $sb-text-color, 
+        $sb-text-style,
+        $sb-gradient-style, 
+        $sb-auto-states
+    );
+}
+
+.btn-twitter {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    @include sassy-button-default-structure(
+        $sb-base-color, 
+        $sb-second-color,
+        $sb-border-radius,
+        $sb-border-width,
+        $sb-padding,
+        $sb-font-size,
+        $sb-line-height, 
+        $sb-text-color, 
+        $sb-text-style,
+        $sb-gradient-style, 
+        $sb-auto-states
+    );
+}
+
+.btn-linkedin {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    @include sassy-button-structure(
+        $sb-base-color, 
+        $sb-second-color,
+        $sb-border-radius,
+        $sb-border-width,
+        $sb-padding,
+        $sb-font-size,
+        $sb-line-height, 
+        $sb-text-color, 
+        $sb-text-style,
+        $sb-gradient-style, 
+        $sb-auto-states
+    );
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container p {
+        padding: 40px;
+        font-size: 1.5em;
+        font-display: $main-font-family $main-font-style;
+        word-spacing: 0.3em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container p {
+        padding: 20px;
+        font-size: 1.8em;
+        font-display: $main-font-style $main-font-style;
+        word-spacing: $word-spacing;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .front-pic {
+        height: 621px;
+    }
+    img .sakura {
+        position: absolute;
+    }
+}

@@ -1,0 +1,35 @@
+@mixin mobile {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+}
+
+  @mixin desktop {
+    @media screen and (min-width: 485px) {
+      @content;
+      
+    }
+}
+
+@mixin full-width-centered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+@mixin h2-style {
+    font-family: $main-font-family;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+@mixin sassy-button-default-structure {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+  }

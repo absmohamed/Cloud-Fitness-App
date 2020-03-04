@@ -1,0 +1,38 @@
+.container p {
+    padding: 110px;
+    font-size: 1.6em;
+}
+
+.container {
+    color: $black-text;
+    background-color: $main-bgcolor;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    padding: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 80px;
+    grid-template-areas: "about-img" "about-content";
+    
+    .about-img { grid-area: about-img;
+        height: 300px;}
+    
+    .about-content { grid-area: portfolio-item-maintenance;
+    height: 300px;}
+    
+}
+
+.about-title {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.75em;
+
+}
+
+.about-title-2 {
+    display: none;
+    font-family: $main-font-family;
+    font-style: $secondary-font-style;
+    font-size: 1.5em;
+}

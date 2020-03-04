@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header {
+    /* The image used */
+    background-image: url("src/img/portfolio/brisbane-skyline.jpg");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: $white-text;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: transparent;
+    color: $white-text;
+  }
+
+
+header {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    h1 .header {
+        font-size: 2em;
+        position : absolute;
+        bottom: 20px;
+        left: 40px;
+        right: 40px;
+    }
+    h1 .header #welcome {
+        font-style: $main-font-family $secondary-font-style;
+    }
+}
+
+
+
+.quote {
+    display: none;font-size: 1.75em;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+}
+
+
+
+.btn-get-start {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    @include sassy-button-default-structure(
+        $sb-base-color, 
+        $sb-second-color,
+        $sb-border-radius,
+        $sb-border-width,
+        $sb-padding,
+        $sb-font-size,
+        $sb-line-height, 
+        $sb-text-color, 
+        $sb-text-style,
+        $sb-gradient-style, 
+        $sb-auto-states
+    );
+   
+}
+
+.btn-services {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px;
+    @include sassy-button-default-structure(
+        $sb-base-color, 
+        $sb-second-color,
+        $sb-border-radius,
+        $sb-border-width,
+        $sb-padding,
+        $sb-font-size,
+        $sb-line-height, 
+        $sb-text-color, 
+        $sb-text-style,
+        $sb-gradient-style, 
+        $sb-auto-states
+    );
+    
+}
+
+
+
